@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: white;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: grey;
   border-radius: 0;
   border: 0;
 }
@@ -24,12 +24,12 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: black;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
+  margin-top: 15px;
   margin-bottom: 0;
   line-height: .75;
 }
@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 .navbar-brand p { /* Kosher cert */
-  color: #000;
+  color: black;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
@@ -50,7 +50,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: black;
   text-align: center;
 }
 #nav-list a:hover {
@@ -120,7 +120,7 @@ body {
   border: 2px solid #3F0C1F;
 }
 
-#menu-tile, #specials-tile, #map-tile {
+#menu-tile, #specials-tile, #map-tile, #boxChicken {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -128,18 +128,11 @@ body {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover, #boxChicken:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
-  background-position: center;
-}
-#specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
-  background-position: center;
-}
-#menu-tile span, #specials-tile span, #map-tile span {
+
+#menu-tile span, #specials-tile span, #map-tile span, #boxChicken span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -329,7 +322,7 @@ h3.menu-item-title {
     margin-top: 30px;
     padding: 0;
   }
-  #menu-tile, #specials-tile {
+  #menu-tile, #specials-tile, #boxChicken {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -356,7 +349,7 @@ h3.menu-item-title {
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
+  #menu-tile, #specials-tile, #boxChicken {
     width: 280px;
     margin: 0 auto 15px;
   }
@@ -370,6 +363,9 @@ h3.menu-item-title {
     width: 100%;
   }
 }
+
+
+
 
 
 
